@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    color: rgb(35, 231, 35);
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 0px;
+    font-family: 'Bad Script';
+    font-size:40px;
+    text-align: center;
+    text-transform: uppercase;
+    width:100%;
+    top:20%;
+  }
+  .sh{
+    top: 50%;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-right: 300px;
+    font-family: 'Acme';
+  }
+  .sh h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .sh p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Abhaya Libre';
+    text-transform: none;
+  }
+  .ml13 {
+    font-size: 1.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 600;
+  }
+  
+  .ml13 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+

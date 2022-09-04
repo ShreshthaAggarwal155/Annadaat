@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ANNADAAT</title>
+        <link rel="stylesheet" href="aakruti.css">
+        <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Salsa' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+    
+    </head>
+
+    <body>
+        <header class="navbar" id="two">
+            <div class="container">
+                 <div class="logo_div">
+                     <img src="logo.png" alt="Logo" class="logo">
+                 </div>
+                 <div class="navbar_links">
+                   <ul class="menu">
+                        <li><a href="final_home.html">Home</a></li>
+                        <li><a href="aakruti.html">Aakruti</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="AboutUs2.html">About Us</a></li>
+                        <li style="background-color:#98FB98;"><a href="cart.html"><img src="cart.png" width="20px" height="20px"></li></a>
+                       
+                    </ul>  
+                 </div>
+            </div>
+        </header>
+
+        <!--cart items details-->
+
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price of each item</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="aakruti3.jpg"></a>
+                            <div>
+                                <p>Chennapatna,Toy:A Couple Doll</p>
+								<i>By Sakram</i><br>
+                                <small>Price: Rs. 300</small>
+                                <br>
+                                <button style="color:#ff253b;border:none;background-color:white;">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" value="1"/></td>                    
+					<td><select class="table-select" title="Please select">
+                                                        <option value="300">Normal Shine (Rs. 300)</option>
+                                                        <option value="350">Copper Shine (Rs. 350)</option>
+                                                        <option value="400">Silver Shine (Rs. 400)</option>
+                                                    </select></td>
+                </tr>
+                <tr class="bg-modal">
+                    <td>
+                        <div class="cart-info">
+                            <img src="aakruti5.jpeg"></a>
+                            <div>
+                                <p>Chennapatna,Toy:A Bull</p>
+								<i>By Mridal</i><br>
+                                <small>Price: Rs. 250</small>
+                                <br>
+                                <button class="remove" style="color:#ff253b;border:none;background-color:white;">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="t1"><input type="text" value="0"/></td>
+                    <td class="t2"><select class="table-select" title="Please select">
+                                                        <option value="250">Normal Shine (Rs. 250)</option>
+                                                        <option value="300">Copper Shine (Rs. 300)</option>
+                                                        <option value="350">Silver Shine (Rs. 350)</option>
+                                                    </select></td>
+                </tr>
+                <tr class="bg-modal1">
+                    <td>
+                        <div class="cart-info">
+						<img src="aakruti15.jpg"></a>
+                            <div>
+                                <p>Chennapatna,Toy:A Cone Of Rings</p>
+								<i>By Ritu</i><br>
+                                <small>Price: Rs. 300</small>
+                                <br>
+                                <button class="remove1" style="color:#ff253b;border:none;background-color:white;">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+					<td><input type="text" value="0"/></td>
+					<td><select class="table-select" title="Please select">
+                                                        <option value="300">Normal Shine (Rs. 300)</option>
+                                                    </select></td>                    
+                </tr>
+				<tr class="bg-modal2">
+                    <td>
+                        <div class="cart-info">
+						<img src="aakruti9.jpg"></a>
+                            <div>
+                                <p>Chennapatna, Goddess Cow</p>
+								<i>By Varsha</i><br>
+                                <small>Price: Rs. 2500</small>
+                                <br>
+                                <button class="remove2" style="color:#ff253b;border:none;background-color:white;">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+					<td><input type="text" value="0"/></td>
+					<td><select class="table-select" title="Please select">
+                                                        <option value="2500">Normal Shine (Rs. 2500)</option>
+														<option value="3000">Copper Shine (Rs. 3000)</option>
+                                                        <option value="3500">Silver Shine (Rs. 3500)</option>
+                                                    </select></td>                    
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtototal</td>
+                        <td id="total">Rs. 300</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td id="tax">Rs. 36</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td><p class="totals" id="grandtotal">Rs. 336</p></p></td>
+                    </tr>
+                </table>
+            </div>
+            <button type="button" onclick="check10()" class="btn align">Confirm</button>
+        </div>
+
+		<!-- ************************* -->
+		<div>
+			<h2 style="text-align:center;">Users who bought <i>Chennapatna,Toy:A Couple Doll</i> also bought following items :- </h2>
+			<div class="small-container part-two">
+				<div class="row">
+					<div class="col-3">
+						<img src="aakruti5.jpeg" style="height:200px;">
+						<h4>Chennapatna,Toy:A Bull</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>Rs.2500.00</p>
+						<button type="button" id="add1" class="btn align" style="margin-left:230px;margin-top:-0px;">Add</button>
+					</div>
+					<div class="col-3">
+						<img src="aakruti15.jpg" style="height:200px;">
+						<h4>Chennapatna,Toy:A Cone Of Rings</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<p>Rs.250.00</p>
+						<button type="button" id="add2" class="btn align" style="margin-left:230px;margin-top:-0px;">Add</button>
+					</div> 
+					<div class="col-3">
+						<img src="aakruti9.jpg" style="height:200px;">
+						<h4>Chennapatna, Goddess Cow</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>Rs.2500.00</p>
+						<button type="button" id="add3" class="btn align" style="margin-left:230px;margin-top:-0px;">Add</button>
+					</div> 
+				</div>   
+			</div>
+		</div>
+    <!--Footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download <strong>AAKRUTI</strong> app for Android And IOS Mobile Phone</p>
+                        <div class="app-logo">
+                            <img src="app-store.png">
+                            <img src="play-store.png">
+
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="logo - Copy.png">
+                        <p>Our Vision, Is To Promote the Feeling Of Indianess and support Mahatma Gandhi's Vision Of Swadeshi</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 -Team Annadat</p>
+            </div>
+        </div>
+		
+		<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			function check10(){
+				alert("Your Order Has Been Booked,ThankYou!");
+				window.open("aakruti.html","_self");
+			}
+		</script>
+		<script>
+			var selects = $('select');
+			var inputs = $('input');
+			selects.change(calculate);
+			inputs.keyup(calculate);
+
+			function calculate(){
+				var runningTotal = 0;
+				var t=0;
+				var tax=0;
+				selects.each(function(i){
+					var val = parseInt($(this).val());
+					var qty = inputs.eq(i).val();
+					t += (val*qty);
+				});
+				tax = (0.12*t);
+				runningTotal += (t+tax);
+				$('#total').html("Rs. "+t);
+				$('#tax').html("Rs. "+tax);
+				$('#grandtotal').html("Rs. "+runningTotal);
+			}
+		</script>
+		<script>
+			document.querySelector('.bg-modal').style.display = "none";
+			document.querySelector('.bg-modal1').style.display = "none";
+			document.querySelector('.bg-modal2').style.display = "none";
+			document.getElementById('add1').addEventListener("click", function() {
+				document.querySelector('.bg-modal').style.display = "table-row";
+			});
+
+			document.querySelector('.remove').addEventListener("click", function() {
+				document.querySelector('.bg-modal').style.display = "none";
+			});
+			document.getElementById('add2').addEventListener("click", function() {
+				document.querySelector('.bg-modal1').style.display = "table-row";
+			});
+
+			document.querySelector('.remove1').addEventListener("click", function() {
+				document.querySelector('.bg-modal1').style.display = "none";
+			});
+			document.getElementById('add3').addEventListener("click", function() {
+				document.querySelector('.bg-modal2').style.display = "table-row";
+			});
+
+			document.querySelector('.remove2').addEventListener("click", function() {
+				document.querySelector('.bg-modal2').style.display = "none";
+			});
+		</script>
+    </body>
+</html>
